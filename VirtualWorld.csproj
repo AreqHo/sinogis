@@ -240,6 +240,7 @@
     <Compile Include="Utils\Markers.cs" />
     <Compile Include="Utils\Menu.cs" />
     <Compile Include="Utils\Report.cs" />
+    <Compile Include="Utils\TEOperation.cs" />
     <Compile Include="Utils\Utils.cs" />
     <Compile Include="Utils\WordUtility.cs" />
     <EmbeddedResource Include="MainForm.resx">
