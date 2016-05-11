@@ -29,7 +29,7 @@ namespace HRQ.Modules {
                 double lon = Double.Parse(gridView1.GetDataRow(e.RowHandle)["X"].ToString());
                 double lat = Double.Parse(gridView1.GetDataRow(e.RowHandle)["Y"].ToString());
 
-                MainForm.FlyToPosition(lon, lat);
+                Utils.TEOperation.FlyToPosition(lon, lat);
             }
             catch (Exception ex) {
                 Console.WriteLine(ex.ToString());

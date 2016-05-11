@@ -15,7 +15,8 @@ using DevExpress.XtraSplashScreen;
 using DevExpress.XtraEditors.ColorWheel;
 using TerraExplorerX;
 using HRQ.SubForm;
-using Microsoft.Win32;
+using Timer = System.Timers.Timer;
+using System.Timers;
 
 namespace HRQ {
     public partial class MainForm : RibbonForm {
@@ -23,8 +24,6 @@ namespace HRQ {
         public static Size SkinImageSize = new Size(58, 43);
 
         public static SGWorld66 sgworld = null;
-
-        public static SGWorld66 sgworldEx = null;
 
         public static String TEMP_GROUP_ID = String.Empty;
 
@@ -169,7 +168,6 @@ namespace HRQ {
             string tAppRoot = Path.GetDirectoryName(Application.ExecutablePath);
 
             string tProjectUrl = Path.Combine(tAppRoot, @"Fly\default.FLY");
-            //string tProjectUrl = @"D:\20160504\default.FLY";
 
             bool bIsAsync = false;
 
@@ -477,18 +475,6 @@ namespace HRQ {
             }
             TEMP_GROUP_ID = sgworld.ProjectTree.CreateLockedGroup("TEMP", hid);
             return TEMP_GROUP_ID;
-        }
-
-        public static void FlyToPosition(double lon, double lat) {
-            IPosition66 _pos = sgworld.Creator.CreatePosition(lon, lat, 0, AltitudeTypeCode.ATC_TERRAIN_RELATIVE, 0, -80, 0, 100);
-            sgworld.Navigate.FlyTo(_pos);
-        }
-
-        public static void SplashObject(string _name)
-        {
-            var objID = sgworld.ProjectTree.FindItem("presentation\\" + _name);
-            var obj = sgworld.ProjectTree.GetObject(objID) as IPresentation66;
-            obj.Play(0);
         }
         #endregion
 
@@ -838,7 +824,7 @@ namespace HRQ {
         private void bbiNavigateNorth_ItemClick(object sender, ItemClickEventArgs e) {
             sgworldCommandExecute(1056, 0, false);
         }
-        #endregion
+        
 
         private void bbiQueryPole_ItemClick(object sender, ItemClickEventArgs e)
         {
@@ -869,6 +855,7 @@ namespace HRQ {
             dockData.Visibility = DevExpress.XtraBars.Docking.DockVisibility.Visible;
             progressC.Visible = false;
         }
+        #endregion
     }
     /// <summary>
     /// 启动系统动画

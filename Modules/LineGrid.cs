@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 using DevExpress.XtraCharts;
+using HRQ.Utils;
 
 namespace HRQ.Modules {
     public partial class LineGrid : DevExpress.XtraEditors.XtraUserControl {
@@ -26,7 +27,12 @@ namespace HRQ.Modules {
 
         private void gridView1_RowClick(object sender, DevExpress.XtraGrid.Views.Grid.RowClickEventArgs e) {
             try {
-                MainForm.SplashObject(gridView1.GetDataRow(e.RowHandle)["ID"].ToString());
+                var lArea = gridView1.GetDataRow(e.RowHandle)["LAREA"].ToString();
+                var vType = gridView1.GetDataRow(e.RowHandle)["VTYPE"].ToString();
+                var lName = gridView1.GetDataRow(e.RowHandle)["LNAME"].ToString();
+                TEOperation to = new TEOperation();
+                to.BlinkPath = lArea+"\\"+vType+"\\"+lName;
+                to.BlinkObject();
             }
             catch (Exception ex) {
                 Console.WriteLine(ex.ToString());
