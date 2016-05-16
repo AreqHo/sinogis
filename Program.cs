@@ -11,7 +11,7 @@ namespace HRQ {
         /// </summary>
         [STAThread]
         static void Main() {
-            SplashScreenManager.ShowForm(typeof(PhotoViewerSplashScreen));
+            SplashScreenManager.ShowForm(typeof(SplashScreen1));
             
             BonusSkins.Register();
             SkinManager.EnableFormSkins();

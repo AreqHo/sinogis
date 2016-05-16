@@ -1835,6 +1835,10 @@ namespace HRQ {
             this.bbTravel.LargeGlyph = global::HRQ.Properties.Resources.path_32;
             this.bbTravel.Name = "bbTravel";
             // 
+            // splAcilis
+            // 
+            splAcilis.Properties.ClosingDelay = 500;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);

@@ -859,16 +859,16 @@ namespace HRQ {
     /// <summary>
     /// 启动系统动画
     /// </summary>
-    public class PhotoViewerSplashScreen : DemoSplashScreen {
-        public PhotoViewerSplashScreen() {
-            DemoText = "无人机巡线数据管理系统";
-            ProductText = "星闪世图";
-        }
+    //public class PhotoViewerSplashScreen : DemoSplashScreen {
+    //    public PhotoViewerSplashScreen() {
+    //        DemoText = "无人机巡线数据管理系统";
+    //        ProductText = "星闪世图";
+    //    }
 
-        protected override void CopyrightDataUpdate() {
+    //    protected override void CopyrightDataUpdate() {
 
-        }
-    }
+    //    }
+    //}
 
     public class LineAttribute
     {
