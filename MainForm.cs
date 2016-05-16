@@ -88,7 +88,7 @@ namespace HRQ {
 
         private void InitSkins() {
             SkinHelper.InitSkinGallery(skinGalleryBarItem, true);
-            UserLookAndFeel.Default.SetSkinStyle("Money Twins");
+            UserLookAndFeel.Default.SetSkinStyle("Stardust");
         }
         private Bitmap GetSkinImage(UserLookAndFeel userLF, Size sz, int indent) {
             Bitmap image = new Bitmap(sz.Width, sz.Height);
@@ -302,7 +302,6 @@ namespace HRQ {
                     pFirstPoint = pIWPInfo;
 
                     cRing = sgworld.Creator.GeometryCreator.CreateLinearRingGeometry(cVerticesArray);
-
 
                     AltitudeTypeCode eAltitudeTypeCode = AltitudeTypeCode.ATC_ON_TERRAIN;
 

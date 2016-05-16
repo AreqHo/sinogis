@@ -206,8 +206,6 @@ namespace HRQ.SubForm
 
                 report.SaveDocument(fileDialog.FileName);
 
-
-
                 DevExpress.XtraEditors.XtraMessageBox.Show("导出成功！", "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }

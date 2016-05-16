@@ -80,8 +80,9 @@ namespace HRQ.Utils
 
         public static void FlyToPosition(double lon, double lat)
         {
-            IPosition66 _pos = sgworld.Creator.CreatePosition(lon, lat, 0, AltitudeTypeCode.ATC_TERRAIN_RELATIVE, 0, -80, 0, 100);
-            sgworld.Navigate.FlyTo(_pos);
+            SGWorld66 sg = new SGWorld66();
+            IPosition66 _pos = sg.Creator.CreatePosition(lon, lat, 0, AltitudeTypeCode.ATC_TERRAIN_RELATIVE, 0, -80, 0, 100);
+            sg.Navigate.FlyTo(_pos);
         }
     }
 }

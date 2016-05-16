@@ -33,7 +33,7 @@ namespace HRQ.Modules {
                 Utils.TEOperation.FlyToPosition(lon, lat);
 
                 HRQ.SubForm.ReportForm rf = new SubForm.ReportForm(gridView1.GetDataRow(e.RowHandle));
-                rf.Show();
+                rf.ShowDialog();
             }
             catch (Exception ex) {
                 Console.WriteLine(ex.ToString());
