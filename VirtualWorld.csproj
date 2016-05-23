@@ -216,6 +216,12 @@
     <Compile Include="SubForm\PicEdit.Designer.cs">
       <DependentUpon>PicEdit.cs</DependentUpon>
     </Compile>
+    <Compile Include="SubForm\PoleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForm\PoleForm.Designer.cs">
+      <DependentUpon>PoleForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="SubForm\PropertiesForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -295,6 +301,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SubForm\PicEdit.resx">
       <DependentUpon>PicEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForm\PoleForm.resx">
+      <DependentUpon>PoleForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SubForm\PropertiesForm.resx">
       <DependentUpon>PropertiesForm.cs</DependentUpon>
