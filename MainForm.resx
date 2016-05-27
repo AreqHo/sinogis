@@ -120,6 +120,34 @@
   <metadata name="ribbonControl1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="bbiSetting.Glyph" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAPdEVYdFRpdGxlAFNldHRpbmdzOw5rJ1cAAAD5SURBVDhPnZLNjgFREIXbY5kFljOLtp2QWMm8
+        h3gKKytiVohVB+G5ZoLrO1J1061pP4tPdVXXObdU3ySE8BLtYZZCzAsvqzDhAILFi1GS8vMIM3BxZlH5
+        cwY06jQXK3eT9KYAuvAPfeUmejjBJyyhARsIsIU6TEzgJoqlHUxBoqNFx/OVBC508gYfoOYTjOHbonLR
+        gtjvX8cLPdC4OmlkNUe56hl0rFYwqMEf+MixyVDu79RXMhDa+hrUdG+CPfxYrWQgmnBvB6prR7H/lsEc
+        dJIEPnI+n0Glge7BL+i770Ai3QfdiwV8QaVBHv3XA1wvNBIN/OE9QnIGh44mzQtnGwYAAAAASUVORK5C
+        YII=
+</value>
+  </data>
+  <data name="bbiSetting.LargeGlyph" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAPdEVYdFRpdGxlAFNldHRpbmdzOw5rJ1cAAAJCSURBVFhHxda/jk1RFMfx0fIgCpEMEkKBkkLN
+        EJWMiHgKIZkHIKFRESpEwQShIRGdeQSJgsokJozg+P5u9rpZs+7vjnOTm6P45Gb/ztlrnT/77JmFruv+
+        KxsOyYZDsuGQbNjHqaur05zFT1xI2YirY8M+SvETeIyjeIEOL3EYd3ESto4N+1DB5B7U9Hf7DTF+AlvH
+        hn2oYHIEavYHd3C6/Wosx2Hr2LAPFWzOQ49bd3qrZUFj5atYcnUmgr5agx3YRDzyJeQL0DiObbo6E0Ff
+        rYGcw3OoybQn8BrLrs5EIG3yLI5h2hpQrjVie9lQJ29jBZ9xM2UPoTtVw3jkeXwftpcNdfIUe5EbHIBy
+        7QMPoO/+FXRM+4H2hUeYbR/QyY12s3W8xyFcRL6AS9BFPcNH6PgyfqEuSNvLhmmSikazH/iaxqLxtzLO
+        87dwvWyYJj1Fbvgv75Dnb+F62TBNWsR3RIM1aIXvb78axzHtB3pN2zasbNgKaIHpHcdj/4CdGDfALsRF
+        6Dytmd0YHXe1Kxsy+QbizsIZ5OZBeT33GmztyoZM/pKKBb2O2lz2oZ6r+bZ2ZUMma7OpRWd5Ardha1c2
+        1GTsgb5p7QMq2mcNXMF4IbralQ2jAA4i/7WLr0ALtH4FG9DrGM93tSsbpiJvEA360F/FuV5APH7RfpDH
+        orF2yBh/wlwvQGtARXVneryXkS9Ae7/e+VtoDej8uV5ApTWRL0AL1Z034mpXNnTFEv2Xo+/8esosV7uy
+        4ZBsOCQbDqdb+AsN+DjBYNK+YQAAAABJRU5ErkJggg==
+</value>
+  </data>
   <metadata name="ribbonStatusBar1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -165,7 +193,6 @@
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>110</value>
   </metadata>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAEAAAAAAAEAIAAoIAQAFgAAACgAAAAAAQAAAAIAAAEAIAAAAAAAACAEACMuAAAjLgAAAAAAAAAA

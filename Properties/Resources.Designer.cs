@@ -273,6 +273,16 @@ namespace HRQ.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        internal static System.Drawing.Bitmap arrow_down {
+            get {
+                object obj = ResourceManager.GetObject("arrow_down", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         internal static System.Drawing.Bitmap arrow_right_16 {
             get {
                 object obj = ResourceManager.GetObject("arrow_right_16", resourceCulture);
@@ -283,9 +293,39 @@ namespace HRQ.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        internal static System.Drawing.Bitmap arrow16 {
+            get {
+                object obj = ResourceManager.GetObject("arrow16", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         internal static System.Drawing.Bitmap Arrow2 {
             get {
                 object obj = ResourceManager.GetObject("Arrow2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap arrowleft24 {
+            get {
+                object obj = ResourceManager.GetObject("arrowleft24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap arrowright24 {
+            get {
+                object obj = ResourceManager.GetObject("arrowright24", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -396,6 +436,16 @@ namespace HRQ.Properties {
         internal static System.Drawing.Bitmap Circle_16 {
             get {
                 object obj = ResourceManager.GetObject("Circle_16", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap Circle1 {
+            get {
+                object obj = ResourceManager.GetObject("Circle1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -683,6 +733,16 @@ namespace HRQ.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        internal static System.Drawing.Bitmap eraser1 {
+            get {
+                object obj = ResourceManager.GetObject("eraser1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         internal static System.Drawing.Bitmap Exit2 {
             get {
                 object obj = ResourceManager.GetObject("Exit2", resourceCulture);
@@ -706,6 +766,26 @@ namespace HRQ.Properties {
         internal static System.Drawing.Bitmap Export_32x32 {
             get {
                 object obj = ResourceManager.GetObject("Export_32x32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap FillCircle {
+            get {
+                object obj = ResourceManager.GetObject("FillCircle", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap Fillrect {
+            get {
+                object obj = ResourceManager.GetObject("Fillrect", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1123,6 +1203,16 @@ namespace HRQ.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        internal static System.Drawing.Bitmap line {
+            get {
+                object obj = ResourceManager.GetObject("line", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         internal static System.Drawing.Bitmap Line_16 {
             get {
                 object obj = ResourceManager.GetObject("Line_16", resourceCulture);
@@ -1403,6 +1493,16 @@ namespace HRQ.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        internal static System.Drawing.Bitmap Pencil {
+            get {
+                object obj = ResourceManager.GetObject("Pencil", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         internal static System.Drawing.Bitmap pic_16 {
             get {
                 object obj = ResourceManager.GetObject("pic_16", resourceCulture);
@@ -1536,6 +1636,16 @@ namespace HRQ.Properties {
         internal static System.Drawing.Bitmap record32 {
             get {
                 object obj = ResourceManager.GetObject("record32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap rect {
+            get {
+                object obj = ResourceManager.GetObject("rect", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1863,6 +1973,16 @@ namespace HRQ.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        internal static System.Drawing.Bitmap stopzoom {
+            get {
+                object obj = ResourceManager.GetObject("stopzoom", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         internal static System.Drawing.Bitmap Sun_16 {
             get {
                 object obj = ResourceManager.GetObject("Sun_16", resourceCulture);
@@ -2166,6 +2286,26 @@ namespace HRQ.Properties {
         internal static System.Drawing.Bitmap zoom32 {
             get {
                 object obj = ResourceManager.GetObject("zoom32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap zoomin24 {
+            get {
+                object obj = ResourceManager.GetObject("zoomin24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap zoomout24 {
+            get {
+                object obj = ResourceManager.GetObject("zoomout24", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

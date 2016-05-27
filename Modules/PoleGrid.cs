@@ -31,6 +31,16 @@ namespace HRQ.Modules {
                 double lat = Double.Parse(gridView1.GetDataRow(e.RowHandle)["LAT"].ToString());
 
                 Utils.TEOperation.FlyToPosition(lon, lat);
+
+                PoleAttribute pa = new PoleAttribute();
+                pa.ID = gridView1.GetDataRow(e.RowHandle)["ID"].ToString();
+                pa.Lon = lon;
+                pa.Lat = lat;
+                pa.LName = gridView1.GetDataRow(e.RowHandle)["LNAME"].ToString();
+                pa.STime = App.GetInstance().InspectionTime;
+
+                SubForm.PoleForm pf = new SubForm.PoleForm(pa);
+                pf.ShowDialog();
             }
             catch (Exception ex) {
                 Console.WriteLine(ex.ToString());
@@ -50,5 +60,84 @@ namespace HRQ.Modules {
                 DevExpress.XtraEditors.XtraMessageBox.Show("导出成功！", "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
+    }
+
+    public class PoleAttribute
+    {
+        private string id = "";
+
+        public string ID
+        {
+            get
+            {
+                return id;
+            }
+
+            set
+            {
+                id = value;
+            }
+        }
+
+        public double Lon
+        {
+            get
+            {
+                return lon;
+            }
+
+            set
+            {
+                lon = value;
+            }
+        }
+
+        public double Lat
+        {
+            get
+            {
+                return lat;
+            }
+
+            set
+            {
+                lat = value;
+            }
+        }
+
+        public string LName
+        {
+            get
+            {
+                return lName;
+            }
+
+            set
+            {
+                lName = value;
+            }
+        }
+
+        public string STime
+        {
+            get
+            {
+                return sTime;
+            }
+
+            set
+            {
+                sTime = value;
+            }
+        }
+
+        private double lon = 0.0;
+
+        private double lat = 0.0;
+
+        private string lName = "";
+
+        private string sTime = "";
+
     }
 }

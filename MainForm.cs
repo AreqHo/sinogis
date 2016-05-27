@@ -252,7 +252,7 @@ namespace HRQ {
                         }
                         mTransectFrom = new TransectForm();
                         mTransectFrom.LineAttribute = pointList;
-                        mTransectFrom.Show();
+                        mTransectFrom.ShowDialog();
                         mTransectFrom.Focus();
                     }
                 }
@@ -278,7 +278,7 @@ namespace HRQ {
                             long ias = long.Parse(name);
                             //弹出属性窗口
                             PropertiesForm pf = new PropertiesForm(ias);
-                            pf.Show();
+                            pf.ShowDialog();
                         }
                     }
                 }
@@ -458,6 +458,8 @@ namespace HRQ {
             try {
                 //XtraMessageBox.Show("加载工程文件" + ((bSuccess) ? "成功" : "失败") + "!");
                 //var lineLayer = sgworld.ProjectTree.GetLayer(sgworld.ProjectTree.FindItem("电力线\\powerlines"));
+                SettingForm sf = new SettingForm();
+                sf.ShowDialog();
             }
             catch (Exception ex) {
                 tMsg = String.Format("加载工程文件异常: {0}", ex.Message);
@@ -855,20 +857,13 @@ namespace HRQ {
             progressC.Visible = false;
         }
         #endregion
+
+        private void bbiSetting_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            SettingForm sf = new SettingForm();
+            sf.ShowDialog();
+        }
     }
-    /// <summary>
-    /// 启动系统动画
-    /// </summary>
-    //public class PhotoViewerSplashScreen : DemoSplashScreen {
-    //    public PhotoViewerSplashScreen() {
-    //        DemoText = "无人机巡线数据管理系统";
-    //        ProductText = "星闪世图";
-    //    }
-
-    //    protected override void CopyrightDataUpdate() {
-
-    //    }
-    //}
 
     public class LineAttribute
     {

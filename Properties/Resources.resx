@@ -127,6 +127,9 @@
   <data name="airObj_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\空中对象_32x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="RemoveFolder_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icon\RemoveFolder_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Back_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icon\Back_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -145,14 +148,20 @@
   <data name="Print_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icon\Print_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Buzzfeed16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Buzzfeed16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="eraser1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eraser.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="RemoveAlbum_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icon\RemoveAlbum_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Mark_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icon\Mark_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Ellipse16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ellipse_tool_16px_1185768_easyicon.net.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Buzzfeed16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Buzzfeed16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="report16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\report16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -163,17 +172,20 @@
   <data name="shape2d_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\2d图形_24x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="AddFile_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Icon\AddFile_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Exit2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\captureimagetool\icons\Exit2.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="image16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\image_16px_1068019_easyicon.net (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Accept3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\captureimagetool\icons\Accept3.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Circle1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Circle.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="saveas_16x" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\saveas_16x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="arc_draw_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\arc_draw_24px_22722_easyicon.net.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="zoom_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\缩放_16x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -199,11 +211,11 @@
   <data name="gg_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\广告牌_32x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="text_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\文本标注_32x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Nephrite_pyramid_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Nephrite_pyramid_16px_1128113_easyicon.net.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shape3d" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3DSHAPE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Filter_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icon\Filter_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -220,6 +232,9 @@
   <data name="screenshot_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\截图_16x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Line2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\captureimagetool\icons\Line2.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="groundVideo_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\地面视频_16x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -235,6 +250,9 @@
   <data name="ColorMixer_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icon\ColorMixer_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="cursorAnalysis32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cursorAnalysis32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Film_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icon\Film_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -247,8 +265,8 @@
   <data name="vr16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\vr16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="blue_Polygon_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\blue_Polygon_16px_520013_easyicon.net.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Redo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\captureimagetool\icons\redo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="AddToLibrary_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icon\AddToLibrary_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -262,11 +280,17 @@
   <data name="Unmark_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icon\Unmark_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="zoomout24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zoomout24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="groundObj_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\地面对象_16x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Tile" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icon\Tile.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="AddFile_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icon\AddFile_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="RemoveFromAlbum_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icon\RemoveFromAlbum_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -301,11 +325,14 @@
   <data name="drag_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\拖拽_32x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pline32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pline32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="FillCircle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FillCircle.GIF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Mark_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Icon\Mark_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="report32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\report32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="line" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\line.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ColorMixer_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icon\ColorMixer_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -339,6 +366,9 @@
   </data>
   <data name="tower" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\6电力线.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Fillrect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Fillrect.GIF;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Folder_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icon\Folder_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -394,6 +424,9 @@
   <data name="record32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\record32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Arrow2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\captureimagetool\icons\Arrow2.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="FilterSample" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icon\FilterSample.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -426,6 +459,9 @@
   </data>
   <data name="cursorAnalysis16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cursorAnalysis16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rectangular2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\captureimagetool\icons\Rectangular2.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="north16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\north16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -466,8 +502,8 @@
   <data name="Forward_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icon\Forward_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="path_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\漫游路径_16x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Text2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\captureimagetool\icons\Text2.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="AddToAlbum_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icon\AddToAlbum_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -508,14 +544,14 @@
   <data name="Folder_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icon\Folder_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Back_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Icon\Back_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="arc_draw_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arc_draw_24px_22722_easyicon.net.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="horizontal_32x" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\horizontal_32x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="text_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\文本标注_16x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Back_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icon\Back_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Save_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icon\Save_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -523,14 +559,17 @@
   <data name="arrow_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\arrow_16px_512053_easyicon.net.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SelectAllMarked_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Icon\SelectAllMarked_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Line_16px_1185777_easyicon.net" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Line_16px_1185777_easyicon.net1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Print_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Icon\Print_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="text_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\文本标注_32x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zoom16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zoom16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Measure_Vertical" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Measure_Vertical.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -556,8 +595,8 @@
   <data name="Remove_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icon\Remove_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cursorAnalysis32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cursorAnalysis32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="arrow_down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow_down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="RemoveAlbum_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icon\RemoveAlbum_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -577,8 +616,8 @@
   <data name="horizontalDis" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\水平距离.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Help_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Icon\Help_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Remove_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icon\Remove_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="AddToAlbum_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icon\AddToAlbum_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -586,8 +625,8 @@
   <data name="Edit_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icon\Edit_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="RemoveFolder_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Icon\RemoveFolder_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="blue_Polygon_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blue_Polygon_16px_520013_easyicon.net.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="record16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\record16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -598,14 +637,29 @@
   <data name="gislayers16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\gis_layers_map_16px_3935_easyicon.net.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="arrowright24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrowright24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Sun_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Sun_16px_1194839_easyicon.net.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="DuplicateObjects" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DuplicateObjects.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="stopzoom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stopzoom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="aerial_16x" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\aerial_16x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ellipse2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\captureimagetool\icons\Ellipse2.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="text_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\文本标注_16x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Print_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icon\Print_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="zoom24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\zoom24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -619,11 +673,14 @@
   <data name="shape3d_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\3d图形_16x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="zoom16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\zoom16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Help_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icon\Help_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="cylinder24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cylinder_draw_24px_19784_easyicon.net.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Save2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\captureimagetool\icons\Save2.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Film_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icon\Film_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -637,8 +694,8 @@
   <data name="zoom32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\zoom32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="aerial_32x" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\aerial_32x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pline32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pline32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="paste" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\粘贴.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -652,6 +709,9 @@
   <data name="Save_as_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Save_as_24px_1186319_easyicon.net.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="aerial_32x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\aerial_32x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Undo_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Icon\Undo_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -664,8 +724,8 @@
   <data name="model_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\模型_32x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="shape3d" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\3DSHAPE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="SelectAllMarked_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Icon\SelectAllMarked_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Image_42" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Image_42.074074074074px_1194785_easyicon.net.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -685,17 +745,29 @@
   <data name="cone24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cone_draw_24px_21146_easyicon.net.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Remove_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Icon\Remove_32x32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="path_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\漫游路径_16x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rect.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="selectObj" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\选择对象.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Redo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\captureimagetool\icons\Redo2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Line32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Line32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pline16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pline16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pencil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pencil.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zoomin24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zoomin24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="move_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\移屏模式_16x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -718,37 +790,7 @@
   <data name="house16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\house_17.112299465241px_1189558_easyicon.net.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="report32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\report32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Accept3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\captureimagetool\icons\Accept3.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Arrow2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\captureimagetool\icons\Arrow2.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Ellipse2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\captureimagetool\icons\Ellipse2.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Exit2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\captureimagetool\icons\Exit2.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Line2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\captureimagetool\icons\Line2.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Rectangular2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\captureimagetool\icons\Rectangular2.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Redo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\captureimagetool\icons\redo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Redo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\captureimagetool\icons\Redo2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Save2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\captureimagetool\icons\Save2.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Text2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\captureimagetool\icons\Text2.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="arrowleft24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrowleft24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

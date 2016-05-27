@@ -198,6 +198,7 @@ namespace HRQ {
             this.controlContainer2 = new DevExpress.XtraBars.Docking.ControlContainer();
             this.ribbonPageGroup2 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.bbTravel = new DevExpress.XtraBars.BarButtonItem();
+            this.bbiSetting = new DevExpress.XtraBars.BarButtonItem();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemLookUpEdit1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemZoomTrackBar1)).BeginInit();
@@ -406,9 +407,10 @@ namespace HRQ {
             this.barButtonItem1,
             this.bbiPropertyQuery,
             this.bbiWire,
-            this.bbiQueryIntrusion});
+            this.bbiQueryIntrusion,
+            this.bbiSetting});
             this.ribbonControl1.Location = new System.Drawing.Point(0, 0);
-            this.ribbonControl1.MaxItemId = 170;
+            this.ribbonControl1.MaxItemId = 171;
             this.ribbonControl1.Name = "ribbonControl1";
             this.ribbonControl1.OptionsTouch.ShowTouchUISelectorInQAT = true;
             this.ribbonControl1.OptionsTouch.ShowTouchUISelectorVisibilityItemInQATMenu = true;
@@ -1443,6 +1445,7 @@ namespace HRQ {
             this.ribbonPageGroup6.ItemLinks.Add(this.bbOpenProject);
             this.ribbonPageGroup6.ItemLinks.Add(this.bbSaveProject);
             this.ribbonPageGroup6.ItemLinks.Add(this.bbSaveAsProject);
+            this.ribbonPageGroup6.ItemLinks.Add(this.bbiSetting);
             this.ribbonPageGroup6.Name = "ribbonPageGroup6";
             this.ribbonPageGroup6.Text = "工程";
             // 
@@ -1835,6 +1838,15 @@ namespace HRQ {
             this.bbTravel.LargeGlyph = global::HRQ.Properties.Resources.path_32;
             this.bbTravel.Name = "bbTravel";
             // 
+            // bbiSetting
+            // 
+            this.bbiSetting.Caption = "设置";
+            this.bbiSetting.Glyph = ((System.Drawing.Image)(resources.GetObject("bbiSetting.Glyph")));
+            this.bbiSetting.Id = 170;
+            this.bbiSetting.LargeGlyph = ((System.Drawing.Image)(resources.GetObject("bbiSetting.LargeGlyph")));
+            this.bbiSetting.Name = "bbiSetting";
+            this.bbiSetting.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.bbiSetting_ItemClick);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
@@ -2044,6 +2056,7 @@ namespace HRQ {
         private DevExpress.XtraWaitForm.ProgressPanel progressC;
         private DevExpress.XtraBars.BarButtonItem bbiWire;
         private DevExpress.XtraBars.BarButtonItem bbiQueryIntrusion;
+        private DevExpress.XtraBars.BarButtonItem bbiSetting;
     }
 }
 
