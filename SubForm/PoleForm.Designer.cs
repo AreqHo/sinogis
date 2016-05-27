@@ -346,6 +346,8 @@
             // picControlK
             // 
             this.picControlK.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.picControlK.Flag = 0;
+            this.picControlK.ImgPath = "";
             this.picControlK.Location = new System.Drawing.Point(2, 21);
             this.picControlK.Name = "picControlK";
             this.picControlK.Size = new System.Drawing.Size(431, 305);
@@ -364,6 +366,8 @@
             // picControlH
             // 
             this.picControlH.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.picControlH.Flag = 0;
+            this.picControlH.ImgPath = "";
             this.picControlH.Location = new System.Drawing.Point(2, 21);
             this.picControlH.Name = "picControlH";
             this.picControlH.Size = new System.Drawing.Size(431, 304);
@@ -1717,7 +1721,6 @@
             this.MinimizeBox = false;
             this.Name = "PoleForm";
             this.Text = "故障";
-            this.TopMost = true;
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1)).EndInit();
             this.splitContainerControl1.ResumeLayout(false);

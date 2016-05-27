@@ -1,12 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Drawing;
-using System.Data;
-using System.Text;
-using System.Linq;
 using System.Windows.Forms;
-using DevExpress.XtraEditors;
 using HRQ.Utils;
 using System.Threading;
 using System.IO;
@@ -102,14 +97,18 @@ namespace HRQ.Modules
 
             SetStyle(ControlStyles.OptimizedDoubleBuffer | ControlStyles.AllPaintingInWmPaint | ControlStyles.UserPaint, true);
             this.UpdateStyles();
+
+            Bitmap bmpformfile = new Bitmap(dirs[0]);//获取打开的文件
+
             Bitmap bmp = new Bitmap(pbImg.Width, pbImg.Height);
             Graphics g = Graphics.FromImage(bmp);
-            g.FillRectangle(new SolidBrush(pbImg.BackColor), new Rectangle(0, 0, pbImg.Width, pbImg.Height));
-            g.Dispose();
+            g.FillRectangle(new SolidBrush(pbImg.BackColor), new Rectangle(0, 0, pbImg.Width, pbImg.Height));//不使用这句话，那么这个bmp的背景就是透明的
+            g.DrawImage(bmpformfile, 0, 0, bmpformfile.Width, bmpformfile.Height);//将图片画到画板上
+            g.Dispose();//释放画板所占资源
             dt = new DrawTools(this.pbImg.CreateGraphics(), colorHatch1.HatchColor, bmp);//实例化工具类
-            DefaultPicSize = pbImg.Size;
+            DefaultPicSize = bmpformfile.Size;
 
-            loadImg(0);
+            //loadImg(0);
         }
 
         private void directoryFile()
@@ -227,7 +226,20 @@ namespace HRQ.Modules
         //＂绘图工具选用＂事件处理方法
         private void tool_Click(object sender, EventArgs e)
         {
-
+            ToolStripButton tsb = sender as ToolStripButton;
+            if (tsb != null)
+            {
+                sType = tsb.Name;
+                currentDrawType.Text = tsb.Text;
+                if (sType == "Eraser")
+                {
+                    pbImg.Cursor = new Cursor(Application.StartupPath + @"\img\pb.cur");
+                }
+                else
+                {
+                    pbImg.Cursor = Cursors.Cross;
+                }
+            }
         }
 
         //＂清除图像＂事件处理方法

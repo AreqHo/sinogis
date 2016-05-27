@@ -7,8 +7,14 @@ namespace HRQ.SubForm
         private PoleAttribute pa = null;
         public PoleForm(PoleAttribute pa)
         {
-            this.pa = pa;
             InitializeComponent();
+            this.Load += PoleForm_Load;
+        }
+
+        private void PoleForm_Load(object sender, System.EventArgs e)
+        {
+            this.picControlH.Flag = 1;
+            this.picControlK.Flag = 0;
         }
     }
 }
