@@ -11,7 +11,7 @@ using HRQ.Utils;
 
 namespace HRQ.Modules
 {
-    public partial class PaintControl : DevExpress.XtraEditors.XtraUserControl
+    public partial class PaintControl : UserControl
     {
         public PaintControl()
         {
@@ -42,7 +42,6 @@ namespace HRQ.Modules
         private void pbImg_MouseMove(object sender, MouseEventArgs e)
         {
             Thread.Sleep(6);//减少cpu占用率
-            mousePostion.Text = e.Location.ToString();
             if (dt.startDraw)
             {
                 switch (sType)

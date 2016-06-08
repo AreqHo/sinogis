@@ -29,14 +29,11 @@
         private void InitializeComponent()
         {
             this.panel2 = new System.Windows.Forms.Panel();
+            this.reSize = new System.Windows.Forms.PictureBox();
+            this.pbImg = new System.Windows.Forms.PictureBox();
             this.colorHatch1 = new ColorHatch.ColorHatch();
             this.panel1 = new System.Windows.Forms.Panel();
             this.DrawtoolStrip = new System.Windows.Forms.ToolStrip();
-            this.status = new System.Windows.Forms.StatusStrip();
-            this.currentDrawType = new System.Windows.Forms.ToolStripStatusLabel();
-            this.mousePostion = new System.Windows.Forms.ToolStripStatusLabel();
-            this.reSize = new System.Windows.Forms.PictureBox();
-            this.pbImg = new System.Windows.Forms.PictureBox();
             this.Line = new System.Windows.Forms.ToolStripButton();
             this.Dot = new System.Windows.Forms.ToolStripButton();
             this.Rect = new System.Windows.Forms.ToolStripButton();
@@ -47,11 +44,10 @@
             this.next = new System.Windows.Forms.ToolStripButton();
             this.prev = new System.Windows.Forms.ToolStripButton();
             this.panel2.SuspendLayout();
-            this.panel1.SuspendLayout();
-            this.DrawtoolStrip.SuspendLayout();
-            this.status.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.reSize)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbImg)).BeginInit();
+            this.panel1.SuspendLayout();
+            this.DrawtoolStrip.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel2
@@ -66,6 +62,26 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(635, 562);
             this.panel2.TabIndex = 5;
+            // 
+            // reSize
+            // 
+            this.reSize.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.reSize.Cursor = System.Windows.Forms.Cursors.SizeNWSE;
+            this.reSize.Image = global::HRQ.Properties.Resources.stopzoom;
+            this.reSize.Location = new System.Drawing.Point(372, 325);
+            this.reSize.Name = "reSize";
+            this.reSize.Size = new System.Drawing.Size(15, 15);
+            this.reSize.TabIndex = 1;
+            this.reSize.TabStop = false;
+            // 
+            // pbImg
+            // 
+            this.pbImg.BackColor = System.Drawing.Color.White;
+            this.pbImg.Location = new System.Drawing.Point(0, 0);
+            this.pbImg.Name = "pbImg";
+            this.pbImg.Size = new System.Drawing.Size(372, 325);
+            this.pbImg.TabIndex = 0;
+            this.pbImg.TabStop = false;
             // 
             // colorHatch1
             // 
@@ -106,48 +122,6 @@
             this.DrawtoolStrip.Size = new System.Drawing.Size(55, 307);
             this.DrawtoolStrip.TabIndex = 0;
             this.DrawtoolStrip.Text = "toolStrip1";
-            // 
-            // status
-            // 
-            this.status.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.currentDrawType,
-            this.mousePostion});
-            this.status.Location = new System.Drawing.Point(57, 540);
-            this.status.Name = "status";
-            this.status.Size = new System.Drawing.Size(635, 22);
-            this.status.TabIndex = 6;
-            this.status.Text = "statusStrip1";
-            // 
-            // currentDrawType
-            // 
-            this.currentDrawType.Name = "currentDrawType";
-            this.currentDrawType.Size = new System.Drawing.Size(0, 17);
-            // 
-            // mousePostion
-            // 
-            this.mousePostion.Name = "mousePostion";
-            this.mousePostion.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.mousePostion.Size = new System.Drawing.Size(0, 17);
-            // 
-            // reSize
-            // 
-            this.reSize.BackColor = System.Drawing.SystemColors.ButtonShadow;
-            this.reSize.Cursor = System.Windows.Forms.Cursors.SizeNWSE;
-            this.reSize.Image = global::HRQ.Properties.Resources.stopzoom;
-            this.reSize.Location = new System.Drawing.Point(372, 325);
-            this.reSize.Name = "reSize";
-            this.reSize.Size = new System.Drawing.Size(15, 15);
-            this.reSize.TabIndex = 1;
-            this.reSize.TabStop = false;
-            // 
-            // pbImg
-            // 
-            this.pbImg.BackColor = System.Drawing.Color.White;
-            this.pbImg.Location = new System.Drawing.Point(0, 0);
-            this.pbImg.Name = "pbImg";
-            this.pbImg.Size = new System.Drawing.Size(372, 325);
-            this.pbImg.TabIndex = 0;
-            this.pbImg.TabStop = false;
             // 
             // Line
             // 
@@ -234,21 +208,17 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.status);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "PaintControl";
             this.Size = new System.Drawing.Size(692, 562);
             this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.reSize)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbImg)).EndInit();
             this.panel1.ResumeLayout(false);
             this.DrawtoolStrip.ResumeLayout(false);
             this.DrawtoolStrip.PerformLayout();
-            this.status.ResumeLayout(false);
-            this.status.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.reSize)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbImg)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -265,9 +235,6 @@
         private System.Windows.Forms.ToolStripButton Rect;
         private System.Windows.Forms.ToolStripButton Circle;
         private System.Windows.Forms.ToolStripButton Eraser;
-        private System.Windows.Forms.StatusStrip status;
-        private System.Windows.Forms.ToolStripStatusLabel currentDrawType;
-        private System.Windows.Forms.ToolStripStatusLabel mousePostion;
         private System.Windows.Forms.ToolStripButton zoomOut;
         private System.Windows.Forms.ToolStripButton zoomIn;
         private System.Windows.Forms.ToolStripButton next;

@@ -30,11 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PoleForm));
             this.splitContainerControl1 = new DevExpress.XtraEditors.SplitContainerControl();
-            this.splitContainerControl2 = new DevExpress.XtraEditors.SplitContainerControl();
-            this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
-            this.picControlK = new HRQ.Modules.PicControl();
-            this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
-            this.picControlH = new HRQ.Modules.PicControl();
             this.layoutControl1 = new DevExpress.XtraLayout.LayoutControl();
             this.xtraTabControl1 = new DevExpress.XtraTab.XtraTabControl();
             this.xtraTabPage1 = new DevExpress.XtraTab.XtraTabPage();
@@ -158,14 +153,41 @@
             this.layoutControlGroup2 = new DevExpress.XtraLayout.LayoutControlGroup();
             this.layoutControlItem1 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem2 = new DevExpress.XtraLayout.LayoutControlItem();
+            this.nextH = new System.Windows.Forms.ToolStripButton();
+            this.zoomInH = new System.Windows.Forms.ToolStripButton();
+            this.zoomOutH = new System.Windows.Forms.ToolStripButton();
+            this.saveH = new System.Windows.Forms.ToolStripButton();
+            this.EraserH = new System.Windows.Forms.ToolStripButton();
+            this.CircleH = new System.Windows.Forms.ToolStripButton();
+            this.RectH = new System.Windows.Forms.ToolStripButton();
+            this.DotH = new System.Windows.Forms.ToolStripButton();
+            this.LineH = new System.Windows.Forms.ToolStripButton();
+            this.colorHatch2 = new ColorHatch.ColorHatch();
+            this.DrawtoolStripH = new System.Windows.Forms.ToolStrip();
+            this.prevH = new System.Windows.Forms.ToolStripButton();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.pbImgH = new System.Windows.Forms.PictureBox();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
+            this.nextK = new System.Windows.Forms.ToolStripButton();
+            this.zoomInK = new System.Windows.Forms.ToolStripButton();
+            this.zoomOutK = new System.Windows.Forms.ToolStripButton();
+            this.saveK = new System.Windows.Forms.ToolStripButton();
+            this.EraserK = new System.Windows.Forms.ToolStripButton();
+            this.CircleK = new System.Windows.Forms.ToolStripButton();
+            this.RectK = new System.Windows.Forms.ToolStripButton();
+            this.DotK = new System.Windows.Forms.ToolStripButton();
+            this.LineK = new System.Windows.Forms.ToolStripButton();
+            this.colorHatch1 = new ColorHatch.ColorHatch();
+            this.DrawtoolStripK = new System.Windows.Forms.ToolStrip();
+            this.prevK = new System.Windows.Forms.ToolStripButton();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.pbImgK = new System.Windows.Forms.PictureBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
+            this.splitContainerControl2 = new DevExpress.XtraEditors.SplitContainerControl();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1)).BeginInit();
             this.splitContainerControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl2)).BeginInit();
-            this.splitContainerControl2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
-            this.groupControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).BeginInit();
-            this.groupControl2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).BeginInit();
             this.layoutControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).BeginInit();
@@ -297,6 +319,20 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem2)).BeginInit();
+            this.DrawtoolStripH.SuspendLayout();
+            this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbImgH)).BeginInit();
+            this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).BeginInit();
+            this.groupControl2.SuspendLayout();
+            this.DrawtoolStripK.SuspendLayout();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbImgK)).BeginInit();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
+            this.groupControl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl2)).BeginInit();
+            this.splitContainerControl2.SuspendLayout();
             this.SuspendLayout();
             // 
             // splitContainerControl1
@@ -311,67 +347,10 @@
             this.splitContainerControl1.Panel2.Controls.Add(this.layoutControl1);
             this.splitContainerControl1.Panel2.Controls.Add(this.splitContainerControl3);
             this.splitContainerControl1.Panel2.Text = "Panel2";
-            this.splitContainerControl1.Size = new System.Drawing.Size(958, 660);
+            this.splitContainerControl1.Size = new System.Drawing.Size(1012, 734);
             this.splitContainerControl1.SplitterPosition = 518;
             this.splitContainerControl1.TabIndex = 0;
             this.splitContainerControl1.Text = "splitContainerControl1";
-            // 
-            // splitContainerControl2
-            // 
-            this.splitContainerControl2.AppearanceCaption.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.splitContainerControl2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainerControl2.FixedPanel = DevExpress.XtraEditors.SplitFixedPanel.None;
-            this.splitContainerControl2.Horizontal = false;
-            this.splitContainerControl2.Location = new System.Drawing.Point(0, 0);
-            this.splitContainerControl2.Name = "splitContainerControl2";
-            this.splitContainerControl2.Panel1.Controls.Add(this.groupControl1);
-            this.splitContainerControl2.Panel1.Text = "Panel1";
-            this.splitContainerControl2.Panel2.Controls.Add(this.groupControl2);
-            this.splitContainerControl2.Panel2.Text = "Panel2";
-            this.splitContainerControl2.Size = new System.Drawing.Size(435, 660);
-            this.splitContainerControl2.SplitterPosition = 328;
-            this.splitContainerControl2.TabIndex = 0;
-            this.splitContainerControl2.Text = "splitContainerControl2";
-            // 
-            // groupControl1
-            // 
-            this.groupControl1.Controls.Add(this.picControlK);
-            this.groupControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupControl1.Location = new System.Drawing.Point(0, 0);
-            this.groupControl1.Name = "groupControl1";
-            this.groupControl1.Size = new System.Drawing.Size(435, 328);
-            this.groupControl1.TabIndex = 0;
-            this.groupControl1.Text = "可见光";
-            // 
-            // picControlK
-            // 
-            this.picControlK.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.picControlK.Flag = 0;
-            this.picControlK.ImgPath = "";
-            this.picControlK.Location = new System.Drawing.Point(2, 21);
-            this.picControlK.Name = "picControlK";
-            this.picControlK.Size = new System.Drawing.Size(431, 305);
-            this.picControlK.TabIndex = 0;
-            // 
-            // groupControl2
-            // 
-            this.groupControl2.Controls.Add(this.picControlH);
-            this.groupControl2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupControl2.Location = new System.Drawing.Point(0, 0);
-            this.groupControl2.Name = "groupControl2";
-            this.groupControl2.Size = new System.Drawing.Size(435, 327);
-            this.groupControl2.TabIndex = 0;
-            this.groupControl2.Text = "红外";
-            // 
-            // picControlH
-            // 
-            this.picControlH.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.picControlH.Flag = 0;
-            this.picControlH.ImgPath = "";
-            this.picControlH.Location = new System.Drawing.Point(2, 21);
-            this.picControlH.Name = "picControlH";
-            this.picControlH.Size = new System.Drawing.Size(431, 304);
-            this.picControlH.TabIndex = 0;
             // 
             // layoutControl1
             // 
@@ -382,7 +361,7 @@
             this.layoutControl1.Location = new System.Drawing.Point(0, 0);
             this.layoutControl1.Name = "layoutControl1";
             this.layoutControl1.Root = this.layoutControlGroup1;
-            this.layoutControl1.Size = new System.Drawing.Size(518, 607);
+            this.layoutControl1.Size = new System.Drawing.Size(518, 681);
             this.layoutControl1.TabIndex = 1;
             this.layoutControl1.Text = "layoutControl1";
             // 
@@ -391,7 +370,7 @@
             this.xtraTabControl1.Location = new System.Drawing.Point(12, 42);
             this.xtraTabControl1.Name = "xtraTabControl1";
             this.xtraTabControl1.SelectedTabPage = this.xtraTabPage1;
-            this.xtraTabControl1.Size = new System.Drawing.Size(494, 553);
+            this.xtraTabControl1.Size = new System.Drawing.Size(494, 627);
             this.xtraTabControl1.TabIndex = 6;
             this.xtraTabControl1.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
             this.xtraTabPage1,
@@ -406,7 +385,7 @@
             this.xtraTabPage1.Controls.Add(this.groupControl4);
             this.xtraTabPage1.Controls.Add(this.groupControl3);
             this.xtraTabPage1.Name = "xtraTabPage1";
-            this.xtraTabPage1.Size = new System.Drawing.Size(488, 524);
+            this.xtraTabPage1.Size = new System.Drawing.Size(488, 598);
             this.xtraTabPage1.Text = "金具";
             // 
             // groupControl4
@@ -415,7 +394,7 @@
             this.groupControl4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupControl4.Location = new System.Drawing.Point(0, 167);
             this.groupControl4.Name = "groupControl4";
-            this.groupControl4.Size = new System.Drawing.Size(488, 357);
+            this.groupControl4.Size = new System.Drawing.Size(488, 431);
             this.groupControl4.TabIndex = 1;
             this.groupControl4.Text = "故障说明";
             // 
@@ -424,7 +403,7 @@
             this.rtbJJDesc.Dock = System.Windows.Forms.DockStyle.Fill;
             this.rtbJJDesc.Location = new System.Drawing.Point(2, 21);
             this.rtbJJDesc.Name = "rtbJJDesc";
-            this.rtbJJDesc.Size = new System.Drawing.Size(484, 334);
+            this.rtbJJDesc.Size = new System.Drawing.Size(484, 408);
             this.rtbJJDesc.TabIndex = 0;
             this.rtbJJDesc.Text = "";
             // 
@@ -464,14 +443,25 @@
             this.sbJJUpload.StyleController = this.layoutControl3;
             this.sbJJUpload.TabIndex = 9;
             this.sbJJUpload.Text = "simpleButton1";
+            this.sbJJUpload.Click += new System.EventHandler(this.sbJJUpload_Click);
             // 
             // cbeJJFaultType
             // 
-            this.cbeJJFaultType.EditValue = "----请选择----";
+            this.cbeJJFaultType.EditValue = "疲劳损坏";
             this.cbeJJFaultType.Location = new System.Drawing.Point(66, 75);
             this.cbeJJFaultType.Name = "cbeJJFaultType";
             this.cbeJJFaultType.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.cbeJJFaultType.Properties.Items.AddRange(new object[] {
+            "疲劳损坏",
+            "严重锈蚀",
+            "移位、脱落",
+            "断裂、裂纹",
+            "发热",
+            "磨损、严重锈蚀",
+            "烧伤",
+            "螺栓松动",
+            "损伤、裂纹"});
             this.cbeJJFaultType.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
             this.cbeJJFaultType.Size = new System.Drawing.Size(403, 20);
             this.cbeJJFaultType.StyleController = this.layoutControl3;
@@ -479,7 +469,7 @@
             // 
             // cbeJJFaultClass
             // 
-            this.cbeJJFaultClass.EditValue = "----请选择----";
+            this.cbeJJFaultClass.EditValue = "防震锤";
             this.cbeJJFaultClass.Location = new System.Drawing.Point(299, 45);
             this.cbeJJFaultClass.Name = "cbeJJFaultClass";
             this.cbeJJFaultClass.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
@@ -496,7 +486,7 @@
             // 
             // cbeJJPosition
             // 
-            this.cbeJJPosition.EditValue = "----请选择----";
+            this.cbeJJPosition.EditValue = "大号侧";
             this.cbeJJPosition.Location = new System.Drawing.Point(66, 45);
             this.cbeJJPosition.Name = "cbeJJPosition";
             this.cbeJJPosition.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
@@ -512,7 +502,7 @@
             // 
             // cbeJJPlug
             // 
-            this.cbeJJPlug.EditValue = "----请选择----";
+            this.cbeJJPlug.EditValue = "C";
             this.cbeJJPlug.Location = new System.Drawing.Point(299, 15);
             this.cbeJJPlug.Name = "cbeJJPlug";
             this.cbeJJPlug.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
@@ -528,7 +518,7 @@
             // 
             // cbeJJLoop
             // 
-            this.cbeJJLoop.EditValue = "----请选择----";
+            this.cbeJJLoop.EditValue = "Ⅰ";
             this.cbeJJLoop.Location = new System.Drawing.Point(66, 15);
             this.cbeJJLoop.Name = "cbeJJLoop";
             this.cbeJJLoop.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
@@ -621,7 +611,7 @@
             this.xtraTabPage2.Controls.Add(this.groupControl5);
             this.xtraTabPage2.Controls.Add(this.groupControl6);
             this.xtraTabPage2.Name = "xtraTabPage2";
-            this.xtraTabPage2.Size = new System.Drawing.Size(488, 524);
+            this.xtraTabPage2.Size = new System.Drawing.Size(488, 598);
             this.xtraTabPage2.Text = "绝缘子";
             // 
             // groupControl5
@@ -630,7 +620,7 @@
             this.groupControl5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupControl5.Location = new System.Drawing.Point(0, 167);
             this.groupControl5.Name = "groupControl5";
-            this.groupControl5.Size = new System.Drawing.Size(488, 357);
+            this.groupControl5.Size = new System.Drawing.Size(488, 431);
             this.groupControl5.TabIndex = 3;
             this.groupControl5.Text = "故障说明";
             // 
@@ -639,7 +629,7 @@
             this.richTextBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.richTextBox1.Location = new System.Drawing.Point(2, 21);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(484, 334);
+            this.richTextBox1.Size = new System.Drawing.Size(484, 408);
             this.richTextBox1.TabIndex = 0;
             this.richTextBox1.Text = "";
             // 
@@ -815,7 +805,7 @@
             this.xtraTabPage3.Controls.Add(this.groupControl7);
             this.xtraTabPage3.Controls.Add(this.groupControl8);
             this.xtraTabPage3.Name = "xtraTabPage3";
-            this.xtraTabPage3.Size = new System.Drawing.Size(488, 524);
+            this.xtraTabPage3.Size = new System.Drawing.Size(488, 598);
             this.xtraTabPage3.Text = "杆塔";
             // 
             // groupControl7
@@ -824,7 +814,7 @@
             this.groupControl7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupControl7.Location = new System.Drawing.Point(0, 167);
             this.groupControl7.Name = "groupControl7";
-            this.groupControl7.Size = new System.Drawing.Size(488, 357);
+            this.groupControl7.Size = new System.Drawing.Size(488, 431);
             this.groupControl7.TabIndex = 3;
             this.groupControl7.Text = "故障说明";
             // 
@@ -833,7 +823,7 @@
             this.richTextBox2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.richTextBox2.Location = new System.Drawing.Point(2, 21);
             this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.Size = new System.Drawing.Size(484, 334);
+            this.richTextBox2.Size = new System.Drawing.Size(484, 408);
             this.richTextBox2.TabIndex = 0;
             this.richTextBox2.Text = "";
             // 
@@ -1004,7 +994,7 @@
             this.xtraTabPage4.Controls.Add(this.groupControl9);
             this.xtraTabPage4.Controls.Add(this.groupControl10);
             this.xtraTabPage4.Name = "xtraTabPage4";
-            this.xtraTabPage4.Size = new System.Drawing.Size(488, 524);
+            this.xtraTabPage4.Size = new System.Drawing.Size(488, 598);
             this.xtraTabPage4.Text = "基础";
             // 
             // groupControl9
@@ -1013,7 +1003,7 @@
             this.groupControl9.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupControl9.Location = new System.Drawing.Point(0, 167);
             this.groupControl9.Name = "groupControl9";
-            this.groupControl9.Size = new System.Drawing.Size(488, 357);
+            this.groupControl9.Size = new System.Drawing.Size(488, 431);
             this.groupControl9.TabIndex = 3;
             this.groupControl9.Text = "故障说明";
             // 
@@ -1022,7 +1012,7 @@
             this.richTextBox3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.richTextBox3.Location = new System.Drawing.Point(2, 21);
             this.richTextBox3.Name = "richTextBox3";
-            this.richTextBox3.Size = new System.Drawing.Size(484, 334);
+            this.richTextBox3.Size = new System.Drawing.Size(484, 408);
             this.richTextBox3.TabIndex = 0;
             this.richTextBox3.Text = "";
             // 
@@ -1193,7 +1183,7 @@
             this.xtraTabPage5.Controls.Add(this.groupControl11);
             this.xtraTabPage5.Controls.Add(this.groupControl12);
             this.xtraTabPage5.Name = "xtraTabPage5";
-            this.xtraTabPage5.Size = new System.Drawing.Size(488, 524);
+            this.xtraTabPage5.Size = new System.Drawing.Size(488, 598);
             this.xtraTabPage5.Text = "接地";
             // 
             // groupControl11
@@ -1202,7 +1192,7 @@
             this.groupControl11.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupControl11.Location = new System.Drawing.Point(0, 167);
             this.groupControl11.Name = "groupControl11";
-            this.groupControl11.Size = new System.Drawing.Size(488, 357);
+            this.groupControl11.Size = new System.Drawing.Size(488, 431);
             this.groupControl11.TabIndex = 3;
             this.groupControl11.Text = "故障说明";
             // 
@@ -1211,7 +1201,7 @@
             this.richTextBox4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.richTextBox4.Location = new System.Drawing.Point(2, 21);
             this.richTextBox4.Name = "richTextBox4";
-            this.richTextBox4.Size = new System.Drawing.Size(484, 334);
+            this.richTextBox4.Size = new System.Drawing.Size(484, 408);
             this.richTextBox4.TabIndex = 0;
             this.richTextBox4.Text = "";
             // 
@@ -1382,7 +1372,7 @@
             this.xtraTabPage6.Controls.Add(this.groupControl13);
             this.xtraTabPage6.Controls.Add(this.groupControl14);
             this.xtraTabPage6.Name = "xtraTabPage6";
-            this.xtraTabPage6.Size = new System.Drawing.Size(488, 524);
+            this.xtraTabPage6.Size = new System.Drawing.Size(488, 598);
             this.xtraTabPage6.Text = "红外";
             // 
             // groupControl13
@@ -1391,7 +1381,7 @@
             this.groupControl13.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupControl13.Location = new System.Drawing.Point(0, 167);
             this.groupControl13.Name = "groupControl13";
-            this.groupControl13.Size = new System.Drawing.Size(488, 357);
+            this.groupControl13.Size = new System.Drawing.Size(488, 431);
             this.groupControl13.TabIndex = 3;
             this.groupControl13.Text = "故障说明";
             // 
@@ -1400,7 +1390,7 @@
             this.richTextBox5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.richTextBox5.Location = new System.Drawing.Point(2, 21);
             this.richTextBox5.Name = "richTextBox5";
-            this.richTextBox5.Size = new System.Drawing.Size(484, 334);
+            this.richTextBox5.Size = new System.Drawing.Size(484, 408);
             this.richTextBox5.TabIndex = 0;
             this.richTextBox5.Text = "";
             // 
@@ -1573,7 +1563,7 @@
             // 
             // cbePoleType
             // 
-            this.cbePoleType.EditValue = "----请选择----";
+            this.cbePoleType.EditValue = "悬挂塔";
             this.cbePoleType.Location = new System.Drawing.Point(321, 15);
             this.cbePoleType.Name = "cbePoleType";
             this.cbePoleType.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
@@ -1588,6 +1578,7 @@
             // 
             // tePoleNO
             // 
+            this.tePoleNO.EditValue = "001";
             this.tePoleNO.Location = new System.Drawing.Point(66, 15);
             this.tePoleNO.Name = "tePoleNO";
             this.tePoleNO.Size = new System.Drawing.Size(194, 20);
@@ -1604,7 +1595,7 @@
             this.layoutControlItem5});
             this.layoutControlGroup1.Location = new System.Drawing.Point(0, 0);
             this.layoutControlGroup1.Name = "layoutControlGroup1";
-            this.layoutControlGroup1.Size = new System.Drawing.Size(518, 607);
+            this.layoutControlGroup1.Size = new System.Drawing.Size(518, 681);
             this.layoutControlGroup1.TextVisible = false;
             // 
             // layoutControlItem3
@@ -1632,14 +1623,14 @@
             this.layoutControlItem5.Control = this.xtraTabControl1;
             this.layoutControlItem5.Location = new System.Drawing.Point(0, 30);
             this.layoutControlItem5.Name = "layoutControlItem5";
-            this.layoutControlItem5.Size = new System.Drawing.Size(498, 557);
+            this.layoutControlItem5.Size = new System.Drawing.Size(498, 631);
             this.layoutControlItem5.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem5.TextVisible = false;
             // 
             // splitContainerControl3
             // 
             this.splitContainerControl3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.splitContainerControl3.Location = new System.Drawing.Point(0, 607);
+            this.splitContainerControl3.Location = new System.Drawing.Point(0, 681);
             this.splitContainerControl3.Name = "splitContainerControl3";
             this.splitContainerControl3.Panel1.Controls.Add(this.layoutControl2);
             this.splitContainerControl3.Panel1.Text = "Panel1";
@@ -1664,7 +1655,7 @@
             // 
             // sbFaultExport
             // 
-            this.sbFaultExport.Location = new System.Drawing.Point(282, 12);
+            this.sbFaultExport.Location = new System.Drawing.Point(282, 2);
             this.sbFaultExport.Name = "sbFaultExport";
             this.sbFaultExport.Size = new System.Drawing.Size(224, 22);
             this.sbFaultExport.StyleController = this.layoutControl2;
@@ -1673,12 +1664,13 @@
             // 
             // sbFaultSave
             // 
-            this.sbFaultSave.Location = new System.Drawing.Point(12, 12);
+            this.sbFaultSave.Location = new System.Drawing.Point(12, 2);
             this.sbFaultSave.Name = "sbFaultSave";
             this.sbFaultSave.Size = new System.Drawing.Size(266, 22);
             this.sbFaultSave.StyleController = this.layoutControl2;
             this.sbFaultSave.TabIndex = 4;
             this.sbFaultSave.Text = "保存";
+            this.sbFaultSave.Click += new System.EventHandler(this.sbFaultSave_Click);
             // 
             // layoutControlGroup2
             // 
@@ -1689,6 +1681,7 @@
             this.layoutControlItem2});
             this.layoutControlGroup2.Location = new System.Drawing.Point(0, 0);
             this.layoutControlGroup2.Name = "layoutControlGroup2";
+            this.layoutControlGroup2.Padding = new DevExpress.XtraLayout.Utils.Padding(10, 10, 0, 10);
             this.layoutControlGroup2.Size = new System.Drawing.Size(518, 53);
             this.layoutControlGroup2.TextVisible = false;
             // 
@@ -1697,7 +1690,7 @@
             this.layoutControlItem1.Control = this.sbFaultSave;
             this.layoutControlItem1.Location = new System.Drawing.Point(0, 0);
             this.layoutControlItem1.Name = "layoutControlItem1";
-            this.layoutControlItem1.Size = new System.Drawing.Size(270, 33);
+            this.layoutControlItem1.Size = new System.Drawing.Size(270, 43);
             this.layoutControlItem1.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem1.TextVisible = false;
             // 
@@ -1706,30 +1699,377 @@
             this.layoutControlItem2.Control = this.sbFaultExport;
             this.layoutControlItem2.Location = new System.Drawing.Point(270, 0);
             this.layoutControlItem2.Name = "layoutControlItem2";
-            this.layoutControlItem2.Size = new System.Drawing.Size(228, 33);
+            this.layoutControlItem2.Size = new System.Drawing.Size(228, 43);
             this.layoutControlItem2.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem2.TextVisible = false;
+            // 
+            // nextH
+            // 
+            this.nextH.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.nextH.Image = global::HRQ.Properties.Resources.arrowright24;
+            this.nextH.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.nextH.Name = "nextH";
+            this.nextH.Size = new System.Drawing.Size(23, 20);
+            this.nextH.Text = "toolStripButton1";
+            this.nextH.ToolTipText = "下一张";
+            // 
+            // zoomInH
+            // 
+            this.zoomInH.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.zoomInH.Image = global::HRQ.Properties.Resources.zoomin24;
+            this.zoomInH.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.zoomInH.Name = "zoomInH";
+            this.zoomInH.Size = new System.Drawing.Size(23, 20);
+            this.zoomInH.Text = "toolStripButton1";
+            this.zoomInH.ToolTipText = "放大";
+            // 
+            // zoomOutH
+            // 
+            this.zoomOutH.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.zoomOutH.Image = global::HRQ.Properties.Resources.zoomout24;
+            this.zoomOutH.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.zoomOutH.Name = "zoomOutH";
+            this.zoomOutH.Size = new System.Drawing.Size(23, 20);
+            this.zoomOutH.Text = "toolStripButton1";
+            this.zoomOutH.ToolTipText = "缩小";
+            // 
+            // saveH
+            // 
+            this.saveH.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.saveH.Image = global::HRQ.Properties.Resources.Save_16x16;
+            this.saveH.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.saveH.Name = "saveH";
+            this.saveH.Size = new System.Drawing.Size(23, 20);
+            this.saveH.Text = "toolStripButton1";
+            this.saveH.ToolTipText = "保存";
+            // 
+            // EraserH
+            // 
+            this.EraserH.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.EraserH.Image = global::HRQ.Properties.Resources.eraser1;
+            this.EraserH.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.EraserH.Name = "EraserH";
+            this.EraserH.Size = new System.Drawing.Size(23, 20);
+            this.EraserH.Text = "橡皮";
+            // 
+            // CircleH
+            // 
+            this.CircleH.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.CircleH.Image = global::HRQ.Properties.Resources.Circle1;
+            this.CircleH.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.CircleH.Name = "CircleH";
+            this.CircleH.Size = new System.Drawing.Size(23, 20);
+            this.CircleH.Text = "空心圆";
+            // 
+            // RectH
+            // 
+            this.RectH.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.RectH.Image = global::HRQ.Properties.Resources.rect;
+            this.RectH.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.RectH.Name = "RectH";
+            this.RectH.Size = new System.Drawing.Size(23, 20);
+            this.RectH.Text = "空心矩形";
+            // 
+            // DotH
+            // 
+            this.DotH.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.DotH.Image = global::HRQ.Properties.Resources.Pencil;
+            this.DotH.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.DotH.Name = "DotH";
+            this.DotH.Size = new System.Drawing.Size(23, 20);
+            this.DotH.Text = "铅笔";
+            // 
+            // LineH
+            // 
+            this.LineH.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.LineH.Image = global::HRQ.Properties.Resources.line;
+            this.LineH.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.LineH.Name = "LineH";
+            this.LineH.Size = new System.Drawing.Size(23, 20);
+            this.LineH.Text = "直线";
+            // 
+            // colorHatch2
+            // 
+            this.colorHatch2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.colorHatch2.HatchColor = System.Drawing.Color.Red;
+            this.colorHatch2.Location = new System.Drawing.Point(0, 120);
+            this.colorHatch2.Name = "colorHatch2";
+            this.colorHatch2.Size = new System.Drawing.Size(58, 217);
+            this.colorHatch2.TabIndex = 2;
+            // 
+            // DrawtoolStripH
+            // 
+            this.DrawtoolStripH.AutoSize = false;
+            this.DrawtoolStripH.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.LineH,
+            this.DotH,
+            this.RectH,
+            this.CircleH,
+            this.EraserH,
+            this.saveH,
+            this.zoomOutH,
+            this.zoomInH,
+            this.prevH,
+            this.nextH});
+            this.DrawtoolStripH.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.Flow;
+            this.DrawtoolStripH.Location = new System.Drawing.Point(0, 0);
+            this.DrawtoolStripH.Name = "DrawtoolStripH";
+            this.DrawtoolStripH.Padding = new System.Windows.Forms.Padding(7, 0, 1, 0);
+            this.DrawtoolStripH.Size = new System.Drawing.Size(58, 120);
+            this.DrawtoolStripH.TabIndex = 0;
+            this.DrawtoolStripH.Text = "toolStrip1";
+            // 
+            // prevH
+            // 
+            this.prevH.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.prevH.Image = global::HRQ.Properties.Resources.arrowleft24;
+            this.prevH.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.prevH.Name = "prevH";
+            this.prevH.Size = new System.Drawing.Size(23, 20);
+            this.prevH.Text = "toolStripButton1";
+            this.prevH.ToolTipText = "上一张";
+            // 
+            // panel3
+            // 
+            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel3.Controls.Add(this.colorHatch2);
+            this.panel3.Controls.Add(this.DrawtoolStripH);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel3.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.panel3.Location = new System.Drawing.Point(2, 21);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(60, 241);
+            this.panel3.TabIndex = 12;
+            // 
+            // pbImgH
+            // 
+            this.pbImgH.BackColor = System.Drawing.Color.White;
+            this.pbImgH.Location = new System.Drawing.Point(0, 0);
+            this.pbImgH.Name = "pbImgH";
+            this.pbImgH.Size = new System.Drawing.Size(372, 325);
+            this.pbImgH.TabIndex = 0;
+            this.pbImgH.TabStop = false;
+            // 
+            // panel4
+            // 
+            this.panel4.AutoScroll = true;
+            this.panel4.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.panel4.Controls.Add(this.pbImgH);
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel4.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.panel4.Location = new System.Drawing.Point(62, 21);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(425, 241);
+            this.panel4.TabIndex = 13;
+            // 
+            // groupControl2
+            // 
+            this.groupControl2.Controls.Add(this.panel4);
+            this.groupControl2.Controls.Add(this.panel3);
+            this.groupControl2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupControl2.Location = new System.Drawing.Point(0, 0);
+            this.groupControl2.Name = "groupControl2";
+            this.groupControl2.Size = new System.Drawing.Size(489, 264);
+            this.groupControl2.TabIndex = 0;
+            this.groupControl2.Text = "红外";
+            // 
+            // nextK
+            // 
+            this.nextK.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.nextK.Image = global::HRQ.Properties.Resources.arrowright24;
+            this.nextK.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.nextK.Name = "nextK";
+            this.nextK.Size = new System.Drawing.Size(23, 20);
+            this.nextK.Text = "toolStripButton1";
+            this.nextK.ToolTipText = "下一张";
+            // 
+            // zoomInK
+            // 
+            this.zoomInK.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.zoomInK.Image = global::HRQ.Properties.Resources.zoomin24;
+            this.zoomInK.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.zoomInK.Name = "zoomInK";
+            this.zoomInK.Size = new System.Drawing.Size(23, 20);
+            this.zoomInK.Text = "toolStripButton1";
+            this.zoomInK.ToolTipText = "放大";
+            // 
+            // zoomOutK
+            // 
+            this.zoomOutK.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.zoomOutK.Image = global::HRQ.Properties.Resources.zoomout24;
+            this.zoomOutK.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.zoomOutK.Name = "zoomOutK";
+            this.zoomOutK.Size = new System.Drawing.Size(23, 20);
+            this.zoomOutK.Text = "toolStripButton1";
+            this.zoomOutK.ToolTipText = "缩小";
+            // 
+            // saveK
+            // 
+            this.saveK.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.saveK.Image = global::HRQ.Properties.Resources.Save_16x16;
+            this.saveK.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.saveK.Name = "saveK";
+            this.saveK.Size = new System.Drawing.Size(23, 20);
+            this.saveK.Text = "toolStripButton1";
+            this.saveK.ToolTipText = "保存";
+            // 
+            // EraserK
+            // 
+            this.EraserK.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.EraserK.Image = global::HRQ.Properties.Resources.eraser1;
+            this.EraserK.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.EraserK.Name = "EraserK";
+            this.EraserK.Size = new System.Drawing.Size(23, 20);
+            this.EraserK.Text = "橡皮";
+            // 
+            // CircleK
+            // 
+            this.CircleK.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.CircleK.Image = global::HRQ.Properties.Resources.Circle1;
+            this.CircleK.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.CircleK.Name = "CircleK";
+            this.CircleK.Size = new System.Drawing.Size(23, 20);
+            this.CircleK.Text = "空心圆";
+            // 
+            // RectK
+            // 
+            this.RectK.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.RectK.Image = global::HRQ.Properties.Resources.rect;
+            this.RectK.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.RectK.Name = "RectK";
+            this.RectK.Size = new System.Drawing.Size(23, 20);
+            this.RectK.Text = "空心矩形";
+            // 
+            // DotK
+            // 
+            this.DotK.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.DotK.Image = global::HRQ.Properties.Resources.Pencil;
+            this.DotK.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.DotK.Name = "DotK";
+            this.DotK.Size = new System.Drawing.Size(23, 20);
+            this.DotK.Text = "铅笔";
+            // 
+            // LineK
+            // 
+            this.LineK.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.LineK.Image = global::HRQ.Properties.Resources.line;
+            this.LineK.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.LineK.Name = "LineK";
+            this.LineK.Size = new System.Drawing.Size(23, 20);
+            this.LineK.Text = "直线";
+            // 
+            // colorHatch1
+            // 
+            this.colorHatch1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.colorHatch1.HatchColor = System.Drawing.Color.Red;
+            this.colorHatch1.Location = new System.Drawing.Point(0, 120);
+            this.colorHatch1.Name = "colorHatch1";
+            this.colorHatch1.Size = new System.Drawing.Size(58, 295);
+            this.colorHatch1.TabIndex = 2;
+            // 
+            // DrawtoolStripK
+            // 
+            this.DrawtoolStripK.AutoSize = false;
+            this.DrawtoolStripK.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.LineK,
+            this.DotK,
+            this.RectK,
+            this.CircleK,
+            this.EraserK,
+            this.saveK,
+            this.zoomOutK,
+            this.zoomInK,
+            this.prevK,
+            this.nextK});
+            this.DrawtoolStripK.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.Flow;
+            this.DrawtoolStripK.Location = new System.Drawing.Point(0, 0);
+            this.DrawtoolStripK.Name = "DrawtoolStripK";
+            this.DrawtoolStripK.Padding = new System.Windows.Forms.Padding(7, 0, 1, 0);
+            this.DrawtoolStripK.Size = new System.Drawing.Size(58, 120);
+            this.DrawtoolStripK.TabIndex = 0;
+            this.DrawtoolStripK.Text = "toolStrip1";
+            // 
+            // prevK
+            // 
+            this.prevK.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.prevK.Image = global::HRQ.Properties.Resources.arrowleft24;
+            this.prevK.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.prevK.Name = "prevK";
+            this.prevK.Size = new System.Drawing.Size(23, 20);
+            this.prevK.Text = "toolStripButton1";
+            this.prevK.ToolTipText = "上一张";
+            // 
+            // panel1
+            // 
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.colorHatch1);
+            this.panel1.Controls.Add(this.DrawtoolStripK);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel1.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.panel1.Location = new System.Drawing.Point(2, 21);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(60, 442);
+            this.panel1.TabIndex = 12;
+            // 
+            // pbImgK
+            // 
+            this.pbImgK.BackColor = System.Drawing.Color.White;
+            this.pbImgK.Location = new System.Drawing.Point(0, 0);
+            this.pbImgK.Name = "pbImgK";
+            this.pbImgK.Size = new System.Drawing.Size(372, 325);
+            this.pbImgK.TabIndex = 0;
+            this.pbImgK.TabStop = false;
+            // 
+            // panel2
+            // 
+            this.panel2.AutoScroll = true;
+            this.panel2.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.panel2.Controls.Add(this.pbImgK);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel2.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.panel2.Location = new System.Drawing.Point(62, 21);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(425, 442);
+            this.panel2.TabIndex = 13;
+            // 
+            // groupControl1
+            // 
+            this.groupControl1.Controls.Add(this.panel2);
+            this.groupControl1.Controls.Add(this.panel1);
+            this.groupControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupControl1.Location = new System.Drawing.Point(0, 0);
+            this.groupControl1.Name = "groupControl1";
+            this.groupControl1.Size = new System.Drawing.Size(489, 465);
+            this.groupControl1.TabIndex = 0;
+            this.groupControl1.Text = "可见光";
+            // 
+            // splitContainerControl2
+            // 
+            this.splitContainerControl2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainerControl2.Horizontal = false;
+            this.splitContainerControl2.Location = new System.Drawing.Point(0, 0);
+            this.splitContainerControl2.Name = "splitContainerControl2";
+            this.splitContainerControl2.Panel1.Controls.Add(this.groupControl1);
+            this.splitContainerControl2.Panel1.Text = "Panel1";
+            this.splitContainerControl2.Panel2.Controls.Add(this.groupControl2);
+            this.splitContainerControl2.Panel2.Text = "Panel2";
+            this.splitContainerControl2.Size = new System.Drawing.Size(489, 734);
+            this.splitContainerControl2.SplitterPosition = 465;
+            this.splitContainerControl2.TabIndex = 1;
+            this.splitContainerControl2.Text = "splitContainerControl1";
             // 
             // PoleForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(958, 660);
+            this.ClientSize = new System.Drawing.Size(1012, 734);
             this.Controls.Add(this.splitContainerControl1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "PoleForm";
             this.Text = "故障";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1)).EndInit();
             this.splitContainerControl1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl2)).EndInit();
-            this.splitContainerControl2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
-            this.groupControl1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).EndInit();
-            this.groupControl2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).EndInit();
             this.layoutControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).EndInit();
@@ -1861,6 +2201,22 @@
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlGroup2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem2)).EndInit();
+            this.DrawtoolStripH.ResumeLayout(false);
+            this.DrawtoolStripH.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pbImgH)).EndInit();
+            this.panel4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).EndInit();
+            this.groupControl2.ResumeLayout(false);
+            this.DrawtoolStripK.ResumeLayout(false);
+            this.DrawtoolStripK.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pbImgK)).EndInit();
+            this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
+            this.groupControl1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl2)).EndInit();
+            this.splitContainerControl2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1868,9 +2224,6 @@
         #endregion
 
         private DevExpress.XtraEditors.SplitContainerControl splitContainerControl1;
-        private DevExpress.XtraEditors.SplitContainerControl splitContainerControl2;
-        private DevExpress.XtraEditors.GroupControl groupControl1;
-        private DevExpress.XtraEditors.GroupControl groupControl2;
         private DevExpress.XtraLayout.LayoutControl layoutControl1;
         private DevExpress.XtraLayout.LayoutControlGroup layoutControlGroup1;
         private DevExpress.XtraEditors.SplitContainerControl splitContainerControl3;
@@ -1994,7 +2347,38 @@
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem39;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem40;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem41;
-        private Modules.PicControl picControlK;
-        private Modules.PicControl picControlH;
+        private DevExpress.XtraEditors.SplitContainerControl splitContainerControl2;
+        private DevExpress.XtraEditors.GroupControl groupControl1;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.PictureBox pbImgK;
+        private System.Windows.Forms.Panel panel1;
+        private ColorHatch.ColorHatch colorHatch1;
+        private System.Windows.Forms.ToolStrip DrawtoolStripK;
+        private System.Windows.Forms.ToolStripButton LineK;
+        private System.Windows.Forms.ToolStripButton DotK;
+        private System.Windows.Forms.ToolStripButton RectK;
+        private System.Windows.Forms.ToolStripButton CircleK;
+        private System.Windows.Forms.ToolStripButton EraserK;
+        private System.Windows.Forms.ToolStripButton saveK;
+        private System.Windows.Forms.ToolStripButton zoomOutK;
+        private System.Windows.Forms.ToolStripButton zoomInK;
+        private System.Windows.Forms.ToolStripButton prevK;
+        private System.Windows.Forms.ToolStripButton nextK;
+        private DevExpress.XtraEditors.GroupControl groupControl2;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.PictureBox pbImgH;
+        private System.Windows.Forms.Panel panel3;
+        private ColorHatch.ColorHatch colorHatch2;
+        private System.Windows.Forms.ToolStrip DrawtoolStripH;
+        private System.Windows.Forms.ToolStripButton LineH;
+        private System.Windows.Forms.ToolStripButton DotH;
+        private System.Windows.Forms.ToolStripButton RectH;
+        private System.Windows.Forms.ToolStripButton CircleH;
+        private System.Windows.Forms.ToolStripButton EraserH;
+        private System.Windows.Forms.ToolStripButton saveH;
+        private System.Windows.Forms.ToolStripButton zoomOutH;
+        private System.Windows.Forms.ToolStripButton zoomInH;
+        private System.Windows.Forms.ToolStripButton prevH;
+        private System.Windows.Forms.ToolStripButton nextH;
     }
 }

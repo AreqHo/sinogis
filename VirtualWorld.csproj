@@ -178,6 +178,12 @@
     <Compile Include="Modules\ChartGrid.Designer.cs">
       <DependentUpon>ChartGrid.cs</DependentUpon>
     </Compile>
+    <Compile Include="Modules\DrawControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Modules\DrawControl.Designer.cs">
+      <DependentUpon>DrawControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Modules\PaintControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -296,6 +302,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Modules\ChartGrid.resx">
       <DependentUpon>ChartGrid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\DrawControl.resx">
+      <DependentUpon>DrawControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Modules\PaintControl.resx">
       <DependentUpon>PaintControl.cs</DependentUpon>

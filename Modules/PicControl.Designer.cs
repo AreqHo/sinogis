@@ -28,9 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.mousePostion = new System.Windows.Forms.ToolStripStatusLabel();
-            this.status = new System.Windows.Forms.StatusStrip();
-            this.currentDrawType = new System.Windows.Forms.ToolStripStatusLabel();
             this.prev = new System.Windows.Forms.ToolStripButton();
             this.next = new System.Windows.Forms.ToolStripButton();
             this.zoomIn = new System.Windows.Forms.ToolStripButton();
@@ -44,39 +41,15 @@
             this.save = new System.Windows.Forms.ToolStripButton();
             this.panel1 = new System.Windows.Forms.Panel();
             this.colorHatch1 = new ColorHatch.ColorHatch();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.reSize = new System.Windows.Forms.PictureBox();
             this.pbImg = new System.Windows.Forms.PictureBox();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.status.SuspendLayout();
             this.DrawtoolStrip.SuspendLayout();
             this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.reSize)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbImg)).BeginInit();
-            this.panel2.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // mousePostion
-            // 
-            this.mousePostion.Name = "mousePostion";
-            this.mousePostion.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.mousePostion.Size = new System.Drawing.Size(0, 17);
-            // 
-            // status
-            // 
-            this.status.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.currentDrawType,
-            this.mousePostion});
-            this.status.Location = new System.Drawing.Point(66, 480);
-            this.status.Name = "status";
-            this.status.Padding = new System.Windows.Forms.Padding(1, 0, 16, 0);
-            this.status.Size = new System.Drawing.Size(563, 22);
-            this.status.TabIndex = 9;
-            this.status.Text = "statusStrip1";
-            // 
-            // currentDrawType
-            // 
-            this.currentDrawType.Name = "currentDrawType";
-            this.currentDrawType.Size = new System.Drawing.Size(0, 17);
             // 
             // prev
             // 
@@ -189,8 +162,8 @@
             this.DrawtoolStrip.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.Flow;
             this.DrawtoolStrip.Location = new System.Drawing.Point(0, 0);
             this.DrawtoolStrip.Name = "DrawtoolStrip";
-            this.DrawtoolStrip.Padding = new System.Windows.Forms.Padding(8, 0, 1, 0);
-            this.DrawtoolStrip.Size = new System.Drawing.Size(64, 140);
+            this.DrawtoolStrip.Padding = new System.Windows.Forms.Padding(7, 0, 1, 0);
+            this.DrawtoolStrip.Size = new System.Drawing.Size(58, 120);
             this.DrawtoolStrip.TabIndex = 0;
             this.DrawtoolStrip.Text = "toolStrip1";
             // 
@@ -203,6 +176,7 @@
             this.save.Size = new System.Drawing.Size(23, 20);
             this.save.Text = "toolStripButton1";
             this.save.ToolTipText = "保存";
+            this.save.Click += new System.EventHandler(this.openPic_Click);
             // 
             // panel1
             // 
@@ -213,40 +187,17 @@
             this.panel1.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(66, 502);
+            this.panel1.Size = new System.Drawing.Size(60, 430);
             this.panel1.TabIndex = 7;
             // 
             // colorHatch1
             // 
             this.colorHatch1.Dock = System.Windows.Forms.DockStyle.Top;
             this.colorHatch1.HatchColor = System.Drawing.Color.Red;
-            this.colorHatch1.Location = new System.Drawing.Point(0, 140);
+            this.colorHatch1.Location = new System.Drawing.Point(0, 120);
             this.colorHatch1.Name = "colorHatch1";
-            this.colorHatch1.Size = new System.Drawing.Size(64, 253);
+            this.colorHatch1.Size = new System.Drawing.Size(58, 217);
             this.colorHatch1.TabIndex = 2;
-            // 
-            // reSize
-            // 
-            this.reSize.BackColor = System.Drawing.SystemColors.ButtonShadow;
-            this.reSize.Cursor = System.Windows.Forms.Cursors.SizeNWSE;
-            this.reSize.Image = global::HRQ.Properties.Resources.stopzoom;
-            this.reSize.Location = new System.Drawing.Point(434, 379);
-            this.reSize.Name = "reSize";
-            this.reSize.Size = new System.Drawing.Size(17, 17);
-            this.reSize.TabIndex = 1;
-            this.reSize.TabStop = false;
-            this.reSize.MouseDown += new System.Windows.Forms.MouseEventHandler(this.reSize_MouseDown);
-            this.reSize.MouseMove += new System.Windows.Forms.MouseEventHandler(this.reSize_MouseMove);
-            this.reSize.MouseUp += new System.Windows.Forms.MouseEventHandler(this.reSize_MouseUp);
-            // 
-            // pbImg
-            // 
-            this.pbImg.BackColor = System.Drawing.Color.White;
-            this.pbImg.Location = new System.Drawing.Point(0, 0);
-            this.pbImg.Name = "pbImg";
-            this.pbImg.Size = new System.Drawing.Size(434, 379);
-            this.pbImg.TabIndex = 0;
-            this.pbImg.TabStop = false;
             // 
             // panel2
             // 
@@ -256,39 +207,52 @@
             this.panel2.Controls.Add(this.pbImg);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Location = new System.Drawing.Point(60, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(629, 502);
-            this.panel2.TabIndex = 8;
+            this.panel2.Size = new System.Drawing.Size(479, 430);
+            this.panel2.TabIndex = 10;
+            // 
+            // reSize
+            // 
+            this.reSize.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.reSize.Cursor = System.Windows.Forms.Cursors.SizeNWSE;
+            this.reSize.Image = global::HRQ.Properties.Resources.stopzoom;
+            this.reSize.Location = new System.Drawing.Point(372, 325);
+            this.reSize.Name = "reSize";
+            this.reSize.Size = new System.Drawing.Size(15, 15);
+            this.reSize.TabIndex = 1;
+            this.reSize.TabStop = false;
+            // 
+            // pbImg
+            // 
+            this.pbImg.BackColor = System.Drawing.Color.White;
+            this.pbImg.Location = new System.Drawing.Point(0, 0);
+            this.pbImg.Name = "pbImg";
+            this.pbImg.Size = new System.Drawing.Size(372, 325);
+            this.pbImg.TabIndex = 0;
+            this.pbImg.TabStop = false;
+            this.pbImg.Paint += new System.Windows.Forms.PaintEventHandler(this.pbImg_Paint);
             // 
             // PicControl
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.status);
-            this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel1);
             this.Name = "PicControl";
-            this.Size = new System.Drawing.Size(629, 502);
-            this.Load += new System.EventHandler(this.Form1_Load);
-            this.status.ResumeLayout(false);
-            this.status.PerformLayout();
+            this.Size = new System.Drawing.Size(539, 430);
+            this.Load += new System.EventHandler(this.PicControl_Load);
             this.DrawtoolStrip.ResumeLayout(false);
             this.DrawtoolStrip.PerformLayout();
             this.panel1.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.reSize)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbImg)).EndInit();
-            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.ToolStripStatusLabel mousePostion;
-        private System.Windows.Forms.StatusStrip status;
-        private System.Windows.Forms.ToolStripStatusLabel currentDrawType;
         private System.Windows.Forms.ToolStripButton prev;
         private System.Windows.Forms.ToolStripButton next;
         private System.Windows.Forms.ToolStripButton zoomIn;
@@ -301,9 +265,9 @@
         private System.Windows.Forms.ToolStrip DrawtoolStrip;
         private System.Windows.Forms.Panel panel1;
         private ColorHatch.ColorHatch colorHatch1;
+        private System.Windows.Forms.ToolStripButton save;
+        private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.PictureBox reSize;
         private System.Windows.Forms.PictureBox pbImg;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.ToolStripButton save;
     }
 }

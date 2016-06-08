@@ -8,13 +8,14 @@ using System.IO;
 
 namespace HRQ.Modules
 {
-    public partial class PicControl : DevExpress.XtraEditors.XtraUserControl
+    public partial class PicControl : UserControl
     {
         private string imgPath = "";
         private int flag = 0;//可见光
         List<string> dirs = null;
-        public PicControl()
+        public PicControl(int _flag)
         {
+            this.flag = _flag;
             InitializeComponent();
         }
 
@@ -23,6 +24,8 @@ namespace HRQ.Modules
         private string sFileName;//打开的文件名
         private bool bReSize = false;//是否改变画布大小
         private Size DefaultPicSize;//储存原始画布大小，用来新建文件时使用
+
+        private int picNO = 0;
 
         public string ImgPath
         {
@@ -36,21 +39,6 @@ namespace HRQ.Modules
                 imgPath = value;
             }
         }
-
-        public int Flag
-        {
-            get
-            {
-                return flag;
-            }
-
-            set
-            {
-                flag = value;
-            }
-        }
-
-
         //pbimg＂鼠标按下＂事件处理方法
         private void pbImg_MouseDown(object sender, MouseEventArgs e)
         {
@@ -68,7 +56,6 @@ namespace HRQ.Modules
         private void pbImg_MouseMove(object sender, MouseEventArgs e)
         {
             Thread.Sleep(6);//减少cpu占用率
-            mousePostion.Text = e.Location.ToString();
             if (dt.startDraw)
             {
                 switch (sType)
@@ -88,27 +75,6 @@ namespace HRQ.Modules
             {
                 dt.EndDraw();
             }
-        }
-
-        //＂窗体加载＂事件处理方法
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            directoryFile();
-
-            SetStyle(ControlStyles.OptimizedDoubleBuffer | ControlStyles.AllPaintingInWmPaint | ControlStyles.UserPaint, true);
-            this.UpdateStyles();
-
-            Bitmap bmpformfile = new Bitmap(dirs[0]);//获取打开的文件
-
-            Bitmap bmp = new Bitmap(pbImg.Width, pbImg.Height);
-            Graphics g = Graphics.FromImage(bmp);
-            g.FillRectangle(new SolidBrush(pbImg.BackColor), new Rectangle(0, 0, pbImg.Width, pbImg.Height));//不使用这句话，那么这个bmp的背景就是透明的
-            g.DrawImage(bmpformfile, 0, 0, bmpformfile.Width, bmpformfile.Height);//将图片画到画板上
-            g.Dispose();//释放画板所占资源
-            dt = new DrawTools(this.pbImg.CreateGraphics(), colorHatch1.HatchColor, bmp);//实例化工具类
-            DefaultPicSize = bmpformfile.Size;
-
-            //loadImg(0);
         }
 
         private void directoryFile()
@@ -230,10 +196,16 @@ namespace HRQ.Modules
             if (tsb != null)
             {
                 sType = tsb.Name;
-                currentDrawType.Text = tsb.Text;
                 if (sType == "Eraser")
                 {
                     pbImg.Cursor = new Cursor(Application.StartupPath + @"\img\pb.cur");
+                }
+                else if(sType == "prev") {
+                    loadImg(picNO--);
+                }
+                else if (sType == "next")
+                {
+                    loadImg(picNO++);
                 }
                 else
                 {
@@ -341,6 +313,22 @@ namespace HRQ.Modules
         private void AttributePic_Click(object sender, EventArgs e)
         {
             MessageBox.Show("图像高:" + pbImg.Height + " px ,图像宽:" + pbImg.Width + " px", "图像属性");
+        }
+
+        private void PicControl_Load(object sender, EventArgs e)
+        {
+            directoryFile();
+
+            SetStyle(ControlStyles.OptimizedDoubleBuffer | ControlStyles.AllPaintingInWmPaint | ControlStyles.UserPaint, true);
+            this.UpdateStyles();
+            Bitmap bmp = new Bitmap(pbImg.Width, pbImg.Height);
+            Graphics g = Graphics.FromImage(bmp);
+            g.FillRectangle(new SolidBrush(pbImg.BackColor), new Rectangle(0, 0, pbImg.Width, pbImg.Height));
+            g.Dispose();
+            dt = new DrawTools(this.pbImg.CreateGraphics(), colorHatch1.HatchColor, bmp);//实例化工具类
+            DefaultPicSize = pbImg.Size;
+
+            loadImg(0);
         }
     }
 }
