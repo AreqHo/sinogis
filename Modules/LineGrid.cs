@@ -5,6 +5,7 @@ using HRQ.Utils;
 
 namespace HRQ.Modules {
     public partial class LineGrid : DevExpress.XtraEditors.XtraUserControl {
+        TEOperation to = null;
         public LineGrid() {
             InitializeComponent();
         }
@@ -12,6 +13,7 @@ namespace HRQ.Modules {
         private void ChartGrid_Load(object sender, EventArgs e) {
             HRQ.Utils.DevExpressLocalizerHelper.SetSimpleChinese();
             pivotGridControl.DataSource = Utils.DBOperation.GetNWindData("HVL");
+            to = new TEOperation();
         }
 
         void UpdateSeriesTransparency(SeriesViewBase seriesView) {
@@ -30,7 +32,6 @@ namespace HRQ.Modules {
                 var lArea = gridView1.GetDataRow(e.RowHandle)["LAREA"].ToString();
                 var vType = gridView1.GetDataRow(e.RowHandle)["VTYPE"].ToString();
                 var lName = gridView1.GetDataRow(e.RowHandle)["LNAME"].ToString();
-                TEOperation to = new TEOperation();
                 to.BlinkPath = lArea+"\\"+vType+"\\"+lName;
                 to.BlinkObject();
             }

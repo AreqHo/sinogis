@@ -234,6 +234,7 @@
     <Compile Include="SplashScreen1.Designer.cs">
       <DependentUpon>SplashScreen1.cs</DependentUpon>
     </Compile>
+    <Compile Include="SubForm\DrawTools.cs" />
     <Compile Include="SubForm\LineProperties.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -380,6 +381,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="说明.txt" />
     <None Include="Resources\arrowleft24.png" />
     <None Include="Resources\arrowright24.png" />
     <None Include="Resources\zoomin24.png" />

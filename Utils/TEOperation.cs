@@ -58,6 +58,7 @@ namespace HRQ.Utils
                 {
                     timerCount = 0;
                     timer.Stop();
+                    timer.Close();
                 }
             };
             del();
@@ -81,7 +82,7 @@ namespace HRQ.Utils
         public static void FlyToPosition(double lon, double lat)
         {
             SGWorld66 sg = new SGWorld66();
-            IPosition66 _pos = sg.Creator.CreatePosition(lon, lat, 0, AltitudeTypeCode.ATC_TERRAIN_RELATIVE, 0, -80, 0, 100);
+            IPosition66 _pos = sg.Creator.CreatePosition(lon, lat, 0, AltitudeTypeCode.ATC_TERRAIN_RELATIVE, 0, -45, 0, 200);
             sg.Navigate.FlyTo(_pos);
         }
     }

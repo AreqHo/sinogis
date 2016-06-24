@@ -167,7 +167,8 @@ namespace HRQ {
 
             string tAppRoot = Path.GetDirectoryName(Application.ExecutablePath);
 
-            string tProjectUrl = Path.Combine(tAppRoot, @"Fly\default.FLY");
+            string tProjectUrl = Path.Combine(tAppRoot, @"Fly\Default.fly");
+            //string tProjectUrl = @"D:\\Changzhi\\default.fly";
 
             bool bIsAsync = false;
 
@@ -218,7 +219,7 @@ namespace HRQ {
 
                     List<LineAttribute> pointList = new List<LineAttribute>();
 
-                    IFeatureLayer66 iLineLayer = sgworld.ProjectTree.GetLayer(sgworld.ProjectTree.FindItem("电网模型\\zz-powerlines"));
+                    IFeatureLayer66 iLineLayer = sgworld.ProjectTree.GetLayer(sgworld.ProjectTree.FindItem("电力线\\line"));
                     IFeatures66 lineLayerFeature = iLineLayer.ExecuteSpatialQuery(pIT3DPolygon.Geometry, IntersectionType.IT_INTERSECT);
                     for (int i = 0; i < lineLayerFeature.Count; i++)
                     {
@@ -337,7 +338,7 @@ namespace HRQ {
                     }
                     IGeometry editedGeometry = polygonGeometry.EndEdit();
                     pITPolygon.Geometry = editedGeometry;
-                    pIT3DPolygon = sgworld.Creator.Create3DPolygon(pITPolygon.Geometry, 20, nLineColor, nFillColor, AltitudeTypeCode.ATC_ON_TERRAIN, TEMP_GROUP_ID, "3DPolygon");
+                    pIT3DPolygon = sgworld.Creator.Create3DPolygon(pITPolygon.Geometry, 100, nLineColor, nFillColor, AltitudeTypeCode.ATC_ON_TERRAIN, TEMP_GROUP_ID, "3DPolygon");
                     pbhander = "transectPolygon";
                 }
             }

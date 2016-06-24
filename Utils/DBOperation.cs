@@ -51,7 +51,7 @@ namespace HRQ.Utils
 
                 //string sql = "SELECT * FROM " + tableName;
 
-                string sql = "REPLACE INTO PoleFault(ID,FPATH,FCLASS,FDESC,FTIME)VALUES("
+                string sql = "REPLACE INTO PoleFault(ID,FPATH,FPOSITION,FCLASS,FDESC,FTIME)VALUES("
                     + condition+")";
 
                 SQLiteCommand cmdQ = new SQLiteCommand(sql, conn);
